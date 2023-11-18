@@ -1,0 +1,1 @@
+The project was built using basic Bootstrap this design was implemented as an assignment corresponding to Interface Design using CSS subject.

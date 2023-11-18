@@ -1,0 +1,88 @@
+@charset "UTF-08";
+
+/* using group selectors */
+h1,
+h2, h3 {
+  font-family: Agbalumo;
+}
+
+/* using contextual selector */
+section img,
+figcaption {
+  width: 50%;
+  height: auto;
+  margin: 0 15%;
+}
+
+/* using smart selector "classes" */
+.main-image {
+  margin: 2% 20% 5% 20%;
+  width: 50%;
+  }
+
+.main-image:hover{
+  border-radius: 70%;
+  background: radial-gradient(#940000, #c30101, white);
+}
+
+/* using contextual selector */
+article p,
+figure,
+h2,h3 {
+  margin: 0 20% 2% 20%;
+}
+
+/* using named selector */
+header {
+  margin: 0 20% 2% 20%;
+  
+}
+
+#title{
+  font-size: 4rem;
+  
+}
+
+
+#title::first-letter{
+  font-size: 10rem;
+}
+
+/* using smart selector "classes" */
+.navbar {
+  background-image: linear-gradient(to bottom, #940000, #c30101);
+}
+
+/* using smart selector "classes" */
+.nav-link {
+  color: white;
+  font-size: large;
+  font-weight: 200;
+}
+
+/* using smart selector "classes" */
+.dropdown-item:hover {
+  background-image: linear-gradient(to right, brown, #f7b479);
+  color: black;
+}
+.bi-list{
+  color: #940000;
+  size: 150%;
+}
+
+.footer-icon{
+  margin: 20px;
+}
+
+/* using named selector */
+footer {
+  background: radial-gradient(
+    circle at 100%,
+    #940000,
+    #940000 50%,
+    grey 75%,
+    #940000 75%
+  );
+  font-size: large;
+  font-weight: 200;
+}
